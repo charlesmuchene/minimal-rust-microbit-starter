@@ -1,9 +1,24 @@
 # Micro:bit v2 Rust Template
 
-Simple template for developing apps for the micro:bit v2.
+Minimal template for developing [BBC micro:bit v2](https://microbit.org/) programs in Rust. The template targets the physical board.
 
-Based on the micro:bit [Rust Embedded - Discovery book](https://docs.rust-embedded.org/discovery/microbit/) and the [`rust-embedded/cortex-m-quickstart`](https://github.com/rust-embedded/cortex-m-quickstart).
+This project is a stripped down version of the [Rust Microbit Starter](https://github.com/mdarrik/rust-microbit-starter).
 
-Can use `cargo generate --git https://github.com/mdarrik/rust-microbit-starter` or clone this via git to get started. 
+## Usage
 
-If cloning via git, you'll need to replace the placeholder strings in the `Cargo.toml` file with the correct values
+``` console
+cargo generate --git https://github.com/charlesmuchene/minimal-rust-microbit-starter
+```
+
+### Example
+
+```console
+$ cargo generate --git https://github.com/charlesmuchene/minimal-rust-microbit-starter
+ 🤷   Project Name: mars
+ 🔧   Destination: /path-to-mars ...
+ 🔧   project-name: mars ...
+ 🔧   Generating template ...
+ 🔧   Moving generated files into: `/path-to-mars`...
+ Initializing a fresh Git repository
+ ✨   Done! New project created /path-to-mars
+```
